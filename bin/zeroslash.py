@@ -34,13 +34,13 @@ def zeroSlashFont(source, dest):
     copyChar(font, "asciitilde.coding", "asciitilde", 126)
 
     if charName == "zerodot":
-        font.familyname = "OG Courier Zero Dot"
-        font.fontname = font.fontname.replace("OGCourier", "OGCourierZeroDot")
-        font.fullname = font.fullname.replace("OG Courier", "OG Courier Zero Dot")
+        font.familyname = "Courier Zero Dot"
+        font.fontname = font.fontname.replace("Courier", "CourierZeroDot")
+        font.fullname = font.fullname.replace("Courier", "Courier Zero Dot")
     elif charName == "zeroslash":
-        font.familyname = "OG Courier Zero Slash"
-        font.fontname = font.fontname.replace("OGCourier", "OGCourierZeroSlash")
-        font.fullname = font.fullname.replace("OG Courier", "OG Courier Zero Slash")
+        font.familyname = "Courier Zero Slash"
+        font.fontname = font.fontname.replace("Courier", "CourierZeroSlash")
+        font.fullname = font.fullname.replace("Courier", "Courier Zero Slash")
     else:
         raise Exception("no --char specified or unsupported --char")
 
